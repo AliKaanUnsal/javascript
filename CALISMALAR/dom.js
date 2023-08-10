@@ -37,18 +37,18 @@
 // var node = document.getElementById("agac");
 // alert(node.childNodes[0].nodeValue);
 
-var baslık = document.createElement("h2");
-var node = document.createTextNode("Merhaba Ömer")
-baslık.appendChild(node)
+// var baslık = document.createElement("h2");
+// var node = document.createTextNode("Merhaba Ömer")
+// baslık.appendChild(node)
 
-var div1 = document.getElementById("div1")
-var p2 = document.getElementById("p2")
+// var div1 = document.getElementById("div1")
+// var p2 = document.getElementById("p2")
 
-div1.insertBefore(baslık,p2)
+// div1.insertBefore(baslık,p2)
 
-alert("p2 siliniyor")
-div1.removeChild(p2)
+// alert("p2 siliniyor")
+// div1.removeChild(p2)
 
-alert("Değiştiriliyor")
-var p1 = document.getElementById("p1")
-div1.replaceChild(baslık,p1)
+// alert("Değiştiriliyor")
+// var p1 = document.getElementById("p1")
+// div1.replaceChild(baslık,p1)
